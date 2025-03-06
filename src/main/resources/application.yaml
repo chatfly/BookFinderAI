@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: BookFinderAi
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bookfinder
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+
+  flyway:
+    enabled: true
+
+chatgpt:
+  api:
+    url: https://api.openai.com/v1/chat/completions
+    key: ${OPENAI_API_KEY}
