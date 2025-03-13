@@ -49,7 +49,7 @@ Esse projeto foi feito com o intuito de praticar conceitos aprendidos sobre Inte
 
 ### Configurando
 - É necessário rodar um container Docker com postgres, da seguinte maneira
-  **docker run -e POSTGRES_DB=bookfinder -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres**
+  <a>docker run -e POSTGRES_DB=bookfinder -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres</a>
 - Criar um arquivo .env na raiz do projeto e criar uma variável de ambiente "OPENAI_API_KEY" para guardar a chave de uma maneira segura
 
 ### Rodando
